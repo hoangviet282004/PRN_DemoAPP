@@ -1,0 +1,43 @@
+## [Hạng mục quan trọng] Các thư mục Build và Output
+[Bb]in/
+[Oo]bj/
+[Gg]enerated/
+[Tt]est[Rr]esults/
+
+## [Công cụ lập trình] Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.vstoken
+
+## [Công cụ lập trình] Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## [Thư viện] NuGet Packages
+*.nupkg
+# Thường thì không nên đẩy cả thư mục packages/ lên GitHub để giảm dung lượng
+packages/
+# Nhưng giữ lại file cấu hình
+!nuget.config
+
+## [Bảo mật] Các tệp chứa thông tin nhạy cảm (Cực kỳ quan trọng)
+# Đừng bao giờ đẩy mã nguồn chứa mật khẩu/chuỗi kết nối lên GitHub
+appsettings.Development.json
+appsettings.Local.json
+*.ntvsclist
+*.njsproj
+*.sln.dotsettings.user
+
+## [Hệ thống] Tệp tạm
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
