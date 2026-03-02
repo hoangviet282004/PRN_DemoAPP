@@ -66,6 +66,7 @@ namespace MyDemoAPI.Controllers
         }
 
         [HttpGet("all-accounts")]
+        [Authorize(Roles = "1")] // Chỉ Admin (1) mới được xem tất cả tài khoản
         public async Task<IActionResult> GetAllAccounts()
         {
             var accounts = await _service.GetAllAccountsAsync();
@@ -73,6 +74,7 @@ namespace MyDemoAPI.Controllers
         }
 
         [HttpDelete("delete-account/{id}")]
+        [Authorize(Roles = "1")] // Chỉ Admin (1) mới được xóa tài khoản
         public async Task<IActionResult> DeleteAccount(int id)
         {
             var result = await _service.DeleteAccountByIdAsync(id);
