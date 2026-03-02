@@ -27,6 +27,10 @@ packages/
 # Nhưng giữ lại file cấu hình
 !nuget.config
 
+# Bỏ qua cấu hình EF Power Tools
+efpt.config.json
+efpt.config.json.user
+
 ## [Bảo mật] Các tệp chứa thông tin nhạy cảm (Cực kỳ quan trọng)
 # Đừng bao giờ đẩy mã nguồn chứa mật khẩu/chuỗi kết nối lên GitHub
 appsettings.Development.json
