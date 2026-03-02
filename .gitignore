@@ -30,7 +30,7 @@ packages/
 ## [Bảo mật] Các tệp chứa thông tin nhạy cảm (Cực kỳ quan trọng)
 # Đừng bao giờ đẩy mã nguồn chứa mật khẩu/chuỗi kết nối lên GitHub
 appsettings.Development.json
-appsettings.Local.json
+appsettings.json
 *.ntvsclist
 *.njsproj
 *.sln.dotsettings.user
