@@ -34,6 +34,7 @@ appsettings.json
 *.ntvsclist
 *.njsproj
 *.sln.dotsettings.user
+Model.csproj
 
 ## [Hệ thống] Tệp tạm
 *.log
